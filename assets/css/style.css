@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Fredericka_the_Great';
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans' ;
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf");
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpeg");
+    height: 600px;
+    color: white;
+    padding-top: 10px;
+
+
+}
+
+
+
+header span {
+    margin: 50px 0px 0px 100px;
+    font-family: 'Fredericka_the_Great';
+    font-size: 22px;
+}
+
+header article {
+    width: 200px;
+    height: 100px;
+    margin: 200px auto 0px;
+    text-align: center;
+}
+header article h2 {
+    text-align: center;
+    font-family: 'Fredericka_the_Great';
+}
+
+header nav {
+    margin-top: 125px;
+    margin-left: 70%;
+    margin-right: 50px;
+    text-align: right;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+header nav a:hover {
+    color: green;
+}
+/* =======Main====== */
+main section {
+    text-align: center;
+}
+
+main section h1 {
+    margin-top: 20px;
+    font-family: 'Fredericka_the_Great';
+}
+.resize {
+    margin: 20px 0px 20px 28%;
+
+    width: 600px;
+}
+
+.contactRect {
+    border: thick solid green;
+    width: 200px;
+    padding: 20px;
+    margin: 25px auto 50px;
+}
+.contactRect h3 {
+    margin: 10px;
+}
+
+.contactRect a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* =======footer===== */
+
+footer {
+    height: 140px;
+    background-color: rgb(44, 46, 44);
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 25px;
+    margin: 20px 25px;
+    text-decoration: none;
+    color: white;
+    border: thin solid white;
+    border-radius: 2px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer nav {
+    text-align: right;
+}
+footer nav a {
+    margin: 10px;
+    font-family: 'Open_Sans';
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: green;
+}
+footer p {
+    margin: 0px 25px;
+    line-height: 200%;
+}
+
+p {
+    font-family: 'Open_Sans';
+}
